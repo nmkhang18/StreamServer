@@ -414,7 +414,7 @@ const createWebRtcTransport = async (router) => {
         listenIps: [
           {
             ip: '0.0.0.0', // replace with relevant IP address
-            announcedIp: 'streamserver-gfhl.onrender.com/',
+            announcedIp: 'streamserver-gfhl.onrender.com',
           }
         ],
         enableUdp: true,

@@ -417,11 +417,11 @@ const createWebRtcTransport = async (router) => {
             announcedIp: 'streamserver-gfhl.onrender.com',
           }
         ],
-        enableUdp: true,
+        enableUdp: false,
         enableTcp: true,
-        preferUdp: true,
-        minPort: 40000, 
-        maxPort: 49999
+        preferUdp: false,
+        minPort: 40000,
+   	maxPort: 49999
       }
 
       // https://mediasoup.org/documentation/v3/mediasoup/api/#router-createWebRtcTransport
